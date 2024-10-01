@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos na Escola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        h1, h2 {
+            margin: 20px 0;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #0056b3;
+        }
+        th {
+            background-color: #e7f3fe;
+            color: #0056b3;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eventos na Escola</h1>
+        <nav>
+            <ul>
+                <li><a href="#calendario">Calendário de Eventos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calendario">
+            <h2>Calendário de Eventos</h2>
+            <table>
+                <tr>
+                    <th>Data</th>
+                    <th>Evento</th>
+                </tr>
+                <tr>
+                    <td>15/06</td>
+                    <td>Festa Junina</td>
+                </tr>
+                <tr>
+                    <td>25/11</td>
+                    <td>Feira de Ciências</td>
+                </tr>
+                <tr>
+                    <td>10/12</td>
+                    <td>Feira Cultural</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Eventos</h2>
+            <div class="gallery">
+                <a href="https://link-para-imagem1.com" target="_blank">
+                    <img src="https://link-para-imagem1.com" alt="Feira de Ciências">
+                </a>
+                <a href="https://link-para-imagem2.com" target="_blank">
+                    <img src="https://link-para-imagem2.com" alt="Festa de Halloween">
+                </a>
+                <a href="https://link-para-imagem3.com" target="_blank">
+                    <img src="https://link-para-imagem3.com" alt="Campeonato de Futebol">
+                </a>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações, entre em contato pelo e-mail: <a href="mailto:mariana.lazari@escola.pr.gov.br">contato@escola.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Escola XYZ. Todos os direitos reservados.</p>
+    </footer>
+</body>
